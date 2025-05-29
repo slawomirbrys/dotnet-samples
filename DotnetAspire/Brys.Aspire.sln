@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.0.0
+MinimumVisualStudioVersion = 17.8.0.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brys.Aspire.AppHost", "Brys.Aspire.AppHost\Brys.Aspire.AppHost.csproj", "{32417E00-222F-4C58-97C7-01CE22A421A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brys.Aspire.ServiceDefaults", "Brys.Aspire.ServiceDefaults\Brys.Aspire.ServiceDefaults.csproj", "{EEB99661-15E6-404A-9732-258C485A972E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brys.Aspire.ApiService", "Brys.Aspire.ApiService\Brys.Aspire.ApiService.csproj", "{57AB2DE4-B36A-4FF2-B3C9-E1EA06474E34}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Brys.Aspire.Web", "Brys.Aspire.Web\Brys.Aspire.Web.csproj", "{D120FB5C-FE94-475B-A794-12EC98108AA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{1DCA1442-87E0-4C07-8214-952D57C595EB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		readme.md = readme.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brys.Aspire.ApiService.Models", "Brys.Aspire.ApiService.Models\Brys.Aspire.ApiService.Models.csproj", "{2BDED66D-A481-4F92-A039-75EDCD047166}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32417E00-222F-4C58-97C7-01CE22A421A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32417E00-222F-4C58-97C7-01CE22A421A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32417E00-222F-4C58-97C7-01CE22A421A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32417E00-222F-4C58-97C7-01CE22A421A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEB99661-15E6-404A-9732-258C485A972E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB99661-15E6-404A-9732-258C485A972E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB99661-15E6-404A-9732-258C485A972E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB99661-15E6-404A-9732-258C485A972E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AB2DE4-B36A-4FF2-B3C9-E1EA06474E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AB2DE4-B36A-4FF2-B3C9-E1EA06474E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AB2DE4-B36A-4FF2-B3C9-E1EA06474E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AB2DE4-B36A-4FF2-B3C9-E1EA06474E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D120FB5C-FE94-475B-A794-12EC98108AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D120FB5C-FE94-475B-A794-12EC98108AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D120FB5C-FE94-475B-A794-12EC98108AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D120FB5C-FE94-475B-A794-12EC98108AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDED66D-A481-4F92-A039-75EDCD047166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDED66D-A481-4F92-A039-75EDCD047166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDED66D-A481-4F92-A039-75EDCD047166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDED66D-A481-4F92-A039-75EDCD047166}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1480B6-D94C-47CF-815A-F3E1CC137EBB}
+	EndGlobalSection
+EndGlobal
