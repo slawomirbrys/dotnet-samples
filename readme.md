@@ -2,10 +2,10 @@
 
 Sample projects for variety of reasons, just some trials or helpers.
 
-## DotnetDocker 
+## [DotnetDocker](https://github.com/slawomirbrys/dotnet-samples/tree/main/DotnetDocker) 
 
 Some docker stuff for dotnet project.
 
-## DotnetNoProject
+## [DotnetNoProject](https://github.com/slawomirbrys/dotnet-samples/tree/main/DotnetNoProject)
 
 Net .NET 10 Preview 4 feature to run simple `.cs.` files, like `dotnet run hello.cs`.
