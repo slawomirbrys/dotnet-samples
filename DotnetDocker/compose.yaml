@@ -1,0 +1,7 @@
+﻿services:
+  dotnet-docker:
+    image: dotnet-docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+

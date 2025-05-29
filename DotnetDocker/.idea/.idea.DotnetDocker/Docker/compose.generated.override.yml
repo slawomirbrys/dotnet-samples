@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  dotnet-docker:
+    build:
+      context: "C:\\dev\\slawomirbrys\\dotnet-samples\\DotnetDocker"
+      dockerfile: "Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net9.0/DotnetDocker.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "dotnet-docker:dev"
+    ports: []
+    volumes:
+    - "C:\\dev\\slawomirbrys\\dotnet-samples\\DotnetDocker:/app:rw"
+    - "C:\\dev\\slawomirbrys\\dotnet-samples\\DotnetDocker:/src:rw"
+    - "C:\\Users\\11sbrys\\.nuget\\packages:/root/.nuget/packages"
+    working_dir: "/app"
