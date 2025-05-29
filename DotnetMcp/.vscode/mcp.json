@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "my-mcp-server-94859983": {
+            "type": "stdio",
+            "command": "dotnet",
+            "args": [
+                "run",
+                "--project",
+                "C:\\dev\\slawomirbrys\\dotnet-mcp\\src\\Brys.Mcp.Console\\Brys.Mcp.Console.csproj"
+            ]
+        }
+    }
+}
