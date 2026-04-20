@@ -17,3 +17,7 @@ Sample MCP project that runs under VS Code.
 ## [DotnetNoProject](https://github.com/slawomirbrys/dotnet-samples/tree/main/DotnetNoProject)
 
 Net .NET 10 Preview 4 feature to run simple `.cs.` files, like `dotnet run hello.cs`.
+
+## [console-by-copilot](https://github.com/slawomirbrys/dotnet-samples/tree/main/console-by-copilot)
+
+A .NET 10 console CLI app built with [Spectre.Console.Cli](https://spectreconsole.net/cli/getting-started). Includes a `weather` command that fetches current weather for a given city using the [wttr.in](https://wttr.in) API.
