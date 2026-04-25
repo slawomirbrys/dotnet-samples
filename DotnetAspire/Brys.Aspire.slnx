@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/SolutionFolder/">
+    <File Path=".gitignore" />
+    <File Path="LICENSE" />
+    <File Path="readme.md" />
+  </Folder>
+  <Project Path="Brys.Aspire.ApiService.Models/Brys.Aspire.ApiService.Models.csproj" />
+  <Project Path="Brys.Aspire.ApiService/Brys.Aspire.ApiService.csproj" />
+  <Project Path="Brys.Aspire.AppHost/Brys.Aspire.AppHost.csproj" />
+  <Project Path="Brys.Aspire.ServiceDefaults/Brys.Aspire.ServiceDefaults.csproj" />
+  <Project Path="Brys.Aspire.Web/Brys.Aspire.Web.csproj" />
+</Solution>
